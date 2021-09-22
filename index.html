@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/527ac24f0e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="font/css/">
+
+</head>
+
+<body>
+    <header>
+        <div class="mx-auto">
+            <div class="flex justify-between text-lg">
+                <div class="flex ml-5 my-5 ">
+                    <a href="index.html"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/kalles_2x_d285afa0-dcc0-4663-80cc-93478c8881de_140x@2x.png?v=1581496822"
+                            width="95"></a>
+                </div>
+                <ul class="md:flex hidden mt-4 my-5  items-center">
+                    <li> <a href="index.html" class="mx-5 hover:text-teal-400">Home</a></li>
+                    <li> <a href="shop.html" class="mx-5 hover:text-teal-400">Shop</a></li>
+                    <li><a href="product.html" class="mx-5 hover:text-teal-400">Product</a></li>
+                    <li><a href="blog.html" class="mx-5 hover:text-teal-400">Blog</a></li>
+                    <li><a href="contact.html" class="mx-5 hover:text-teal-400">Contact</a></li>
+                </ul>
+                <div class="flex my-5 mr-6">
+                    <div class="mr-6">
+                        <input type="text" name="" id="" placeholder="Search here"
+                            class=" outline-none pl-2 text-sm border border-black rounded-lg">
+                        <button type="submit"
+                            class=" px-1  outline-none text-sm border border-black rounded-lg">Search</button>
+                    </div>
+                    <a href="#" class="mr-3 hover:text-teal-400">Sign in</a><span class="mr-2">|</span>
+                    <a href="#" class="hover:text-teal-400">Sign up</a>
+                    <div class="flex md:hidden">
+                        <a href="#" class="mr-3 hover:text-teal-400 ml-5" id="btnMenu"><i class="fas fa-bars"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <ul id="btnShowMenu" class=" hidden mt-2 md:mt-0 my-5  items-center">
+            <li> <a href="index.html" class="mx-5 hover:text-teal-400">Home</a></li>
+            <li> <a href="shop.html" class="mx-5 hover:text-teal-400">Shop</a></li>
+            <li><a href="product.html" class="mx-5 hover:text-teal-400">Product</a></li>
+            <li><a href="blog.html" class="mx-5 hover:text-teal-400">Blog</a></li>
+            <li><a href="contact.html" class="mx-5 hover:text-teal-400">Contact</a></li>
+        </ul>
+    </header>
+    <!-- header -->
+    <div class=" mx-auto">
+        <div id="slider" class="relative ">
+            <div class="relative">
+                <a href="#"><img src="img/slider1.jpg" alt="" id="myimage" height="550px"></a>
+                <div class="absolute top-0 left-0 ml-12 mt-6 md:ml-48 md:mt-32">
+                    <span class="uppercase">summer 2020</span>
+                    <h2 class="font-bold text-sm md:text-5xl mb-5">New Arrival Collection</h2>
+                    <a href="#" class="border bg-black text-white px-5 py-2  hover:opacity-75">Eplore Now</a>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="#"><img src="img/slider2.jpg" alt="" id="myimage" height="550px"></a>
+                <div class="absolute top-0 right-0 mr-6 mt-6 md:mr-24  md:mt-32">
+                    <span class="uppercase">new season</span>
+                    <h2 class="font-bold text-sm md:text-5xl mb-5">Lookbook Collection</h2>
+                    <a href="#" class="border bg-black text-white px-5 py-2  hover:opacity-75">Eplore Now</a>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="#"><img src="img/slider3.jpg" alt="" id="myimage" height="550px"></a>
+                <div class="absolute top-0 left-0 ml-12 mt-6 md:ml-48 md:mt-32">
+                    <span class="uppercase">summer sale</span>
+                    <h2 class="font-bold text-sm md:text-5xl mb-5">Sale Up To 70%</h2>
+                    <a href="#" class="border bg-black text-white px-5 py-2  hover:opacity-75">Eplore Now</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container mx-auto mt-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 ">
+            <div class=" group relative overflow-hidden rounded">
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/pr4-1_360x.jpg?v=1581494591"
+                        class="transform  hover:scale-110  duration-700"></a>
+                <a href="#" style="margin: 0 auto;"
+                    class="block transform absolute bottom-0 mx-auto left-0 right-0 mb-6 px-5 py-2 ml-10 bg-gray-200 font-medium  text-center  hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300 ">Short
+                    Sleeved Step Hem</a>
+            </div>
+            <div class="group relative overflow-hidden">
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/pr14-1_360x.jpg?v=1581496167"
+                        class="transform  hover:scale-110  duration-700"></a>
+                <a href="#" style="margin: 0 auto;"
+                    class="inline-block bg-gray-200 transform absolute bottom-0 left-0 right-0 mb-6 py-2 mb-4 bg-gray-200 font-medium  text-center  hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300">Analogue
+                    Resin Strap</a>
+            </div>
+            <div class="group relative overflow-hidden rounded">
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/pr7-1_8e3a138e-55fe-4e1d-b793-4ce0a7e8ac7c_360x.jpg?v=1581566603"
+                        class="transform  hover:scale-110  duration-700"></a>
+                <a href="#" style="margin: 0 auto;"
+                    class="block transform absolute bottom-0 left-0 right-0 py-2  bg-gray-200 font-medium  text-center  hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300">Herschel
+                    Retreat Backpack</a>
+            </div>
+            <div class="group relative overflow-hidden rounded">
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/p35-1_360x.jpg?v=1581906484"
+                        class="transform  hover:scale-110  duration-700"></a>
+                <a href="#" style="margin: 0 auto;"
+                    class="block transform absolute bottom-0 left-0 right-0 mb-6 px-5 py-2 ml-12 bg-gray-200 font-medium  text-center  hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300">Circle
+                    Snapback Cap</a>
+            </div>
+        </div>
+    </div> -->
+    <!-- trung bay -->
+    <div class="container mx-auto">
+        <div class="flex grid grid-cols-9 gap-8">
+            <div class="grid col-span-7">
+                <div class="container mx-auto mt-24">
+                    <div class="flex flex-col items-center ">
+
+                        <div class="inline-block text-2xl font-bold uppercase gach relative">trending</div>
+                        <span class="text-lg text-gray-600"
+                            style="font-family: Libre Baskerville; font-style: italic;">Top view in
+                            this week</span>
+                    </div>
+                </div>
+                <section class="container mx-auto mt-8">
+
+                    <div class=" grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <div>
+                            <div class="product relative overflow-hidden rounded ">
+                                <a href="#"><img
+                                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/p24-11_360x.jpg?v=1581557817"></a>
+                                <div class="quick-hover flex flex-col justify-center items-center ">
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                            View</button>
+                                        <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                            <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                            Shop</button>
+                                        <div class="button-hover-eye  px-4  rounded-full ">
+                                            <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                                    class="fas fa-cart-arrow-down items-center"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="absolute top-0 right-0 text-white md:text-base text-sm bg-orange-700 rounded-full h-8 w-8 md:h-16 md:w-16 flex items-center justify-center mt-1 mr-1 md:mt-3 md:mr-3">
+                                    -34%</div>
+                            </div>
+                            <h3 class="font-medium hover:text-teal-400">La Bohème Rose Gold</h3>
+                            <del class="text-gray-700">$60.00</del><span class="text-red-600 ml-2"> $40.00</span>
+
+                        </div>
+                        <div>
+                            <div class="product relative overflow-hidden rounded">
+                                <a href="#"><img
+                                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/cinqa31079186d2_q1_2-0_360x.jpg?v=16068135666"></a>
+                                <div class="quick-hover flex flex-col justify-center items-center ">
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                            View</button>
+                                        <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                            <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                            Shop</button>
+                                        <div class="button-hover-eye  px-4  rounded-full ">
+                                            <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                                    class="fas fa-cart-arrow-down items-center"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="font-medium hover:text-teal-400">Mercury Tee</h3>
+                            <span class="text-gray-700">$68.00</span>
+                        </div>
+                        <div>
+                            <div class="product relative overflow-hidden rounded">
+                                <a href="#"><img
+                                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/nlota2087710739_q1_2-0_07c22d55-2acd-4583-89a2-3da543ee4407_360x.jpg?v=1606196183"></a>
+                                <div class="quick-hover flex flex-col justify-center items-center ">
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                            View</button>
+                                        <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                            <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                            Shop</button>
+                                        <div class="button-hover-eye  px-4  rounded-full ">
+                                            <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                                    class="fas fa-cart-arrow-down items-center"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="font-medium hover:text-teal-400">Short Sleeved Step Hem</h3>
+                            <span class="text-gray-700">$35.00</span>
+                        </div>
+                        <div>
+                            <div class="product relative overflow-hidden rounded">
+                                <a href="#"><img
+                                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/amiii3063310495_m1_2-1_42dfb341-ccb6-4658-bbc1-86f44b526eef_360x.jpg?v=1606194547"></a>
+                                <div class="quick-hover flex flex-col justify-center items-center ">
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                            View</button>
+                                        <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                            <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="button-hover relative overflow-hidden">
+                                        <button
+                                            class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                            Shop</button>
+                                        <div class="button-hover-eye  px-4  rounded-full ">
+                                            <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                                    class="fas fa-cart-arrow-down items-center"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="font-medium hover:text-teal-400">Pieces High Neck Knitted Sweater</h3>
+                            <span class="text-gray-700">$50.00</span>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="grid col-span-2">
+                <div class="mt-24">
+                    <input type="text" name="" id="" placeholder="Search here"
+                        class="px-1 py-2 pl-2 outline-none border border-black rounded-lg">
+                    <button type="submit"
+                        class=" px-1 py-2 outline-none  border border-black rounded-lg">Search</button>
+                </div>
+                <div class="h-5">
+                    <h3 class="bg-black text-white  text-xl font-bold uppercase  rounded">
+                        <a href="#" id="btn-cate"><i class="fas fa-bars ml-6"></i></a>
+                        <span class="inline-block text-center ml-4"> categories</span>
+
+                    </h3>
+                </div>
+                <div>
+                    <ul id="menu-cate" class="">
+                        <li><a href="men.html"
+                                class="py-2 px-8 block border-b border-gray-600 hover:bg-gray-600">Men</a>
+                        </li>
+                        <li><a href="#" class="block py-2 px-8 border-b border-gray-600 hover:bg-gray-600">Women</a>
+                        </li>
+                        <li><a href="#" class="block py-2 px-8 border-b border-gray-600 hover:bg-gray-600">Clock</a>
+                        </li>
+                        <li><a href="#" class="block py-2 px-8 border-b border-gray-600 hover:bg-gray-600">Spring</a>
+                        </li>
+                        <li><a href="#" class="block py-2 px-8 border-b border-gray-600 hover:bg-gray-600">Summer</a>
+                        </li>
+                        <li><a href="#" class="block py-2 px-8 border-b border-gray-600 hover:bg-gray-600">Fall</a>
+                        </li>
+                        <li><a href="#" class="block py-2 px-8 border-b border-gray-600 hover:bg-gray-600">Winter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- san pham view -->
+    <div class="container mx-auto my-16">
+        <button
+            class="inline-block text-black border-black border mx-auto  font-medium rounded-full h-12 w-40 flex justify-center items-center text-center hover:bg-blue-500 hover:border-white hover:text-white">
+            <h3>Load More</h3>
+        </button>
+    </div>
+    <div class="container mx-auto">
+        <div class="grid grid-cols-2 gap-8">
+            <div class="relative overflow-hidden">
+                <img src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ban11_2x_98a9833d-00a0-4093-bd47-449aeb385ae5_720x.jpg?v=1581761839"
+                    class="transform  hover:scale-110 duration-700 rounded">
+                <div class="absolute top-0 right-0 my-32 mx-48 text-center font-medium">
+                    <h2 class="uppercase text-3xl text-white">lookbook 2020</h2>
+                    <span class="text-white uppercase text-sm">make love this look</span>
+                </div>
+            </div>
+            <div class="relative overflow-hidden">
+                <img src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ban12_2x_bc6d3370-26aa-4413-ad72-71ab2161187f_720x.jpg?v=1581761856"
+                    class="transform  hover:scale-110 duration-700 rounded">
+                <div class="absolute top-0 right-0 my-32 mx-48 text-center font-medium">
+                    <h2 class="uppercase text-base text-white">summer sale</h2>
+                    <span class="text-white uppercase text-4xl">up to 70%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto mt-24">
+        <div class="flex flex-col items-center ">
+
+            <div class="inline-block text-2xl font-bold uppercase gach2 relative">BEST SELLER</div>
+            <span class="text-lg text-gray-600" style="font-family: Libre Baskerville; font-style: italic;">Top sale in
+                this week</span>
+        </div>
+    </div>
+    <section class="container mx-auto mt-8">
+        <div class=" grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <div class="product relative overflow-hidden rounded ">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/brchu402991953b_q4_2-0_360x.jpg?v=1606192881"></a>
+                    <div class="quick-hover flex flex-col justify-center items-center ">
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                View</button>
+                            <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                            </div>
+                        </div>
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                Shop</button>
+                            <div class="button-hover-eye  px-4  rounded-full ">
+                                <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                        class="fas fa-cart-arrow-down items-center"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute top-0 right-0 text-white md:text-base text-sm bg-orange-700 rounded-full h-8 w-8 md:h-16 md:w-16 flex items-center justify-center mt-1 mr-1 md:mt-3 md:mr-3">
+                        -34%</div>
+                </div>
+                <h3 class="font-medium hover:text-teal-400">La Bohème Rose Gold</h3>
+                <del class="text-gray-700">$60.00</del><span class="text-red-600 ml-2"> $40.00</span>
+
+            </div>
+            <div>
+                <div class="product relative overflow-hidden rounded">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/vince5075312397_m1_2-0_360x.jpg?v=1606193328"></a>
+                    <div class="quick-hover flex flex-col justify-center items-center ">
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                View</button>
+                            <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                            </div>
+                        </div>
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                Shop</button>
+                            <div class="button-hover-eye  px-4  rounded-full ">
+                                <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                        class="fas fa-cart-arrow-down items-center"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="font-medium hover:text-teal-400">Mercury Tee</h3>
+                <span class="text-gray-700">$68.00</span>
+            </div>
+            <div>
+                <div class="product relative overflow-hidden rounded">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/sclov3012315dac_q1_2-0_360x.jpg?v=1606196490"></a>
+                    <div class="quick-hover flex flex-col justify-center items-center ">
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                View</button>
+                            <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                            </div>
+                        </div>
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                Shop</button>
+                            <div class="button-hover-eye  px-4  rounded-full ">
+                                <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                        class="fas fa-cart-arrow-down items-center"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="font-medium hover:text-teal-400">Short Sleeved Step Hem</h3>
+                <span class="text-gray-700">$35.00</span>
+            </div>
+            <div>
+                <div class="product relative overflow-hidden rounded">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/products/citiz4093612af6_m3_2-0_069a3c5b-f45e-4e6b-80da-553e5d85024c_360x.jpg?v=1606194908"></a>
+                    <div class="quick-hover flex flex-col justify-center items-center ">
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black py-1 px-1 md:py-2 md:px-6 rounded-full mb-3">Quick
+                                View</button>
+                            <div class="button-hover-eye   px-3 rounded-full mb-3 items-center">
+                                <a href="#" class=" mx-6 md:mt-3 md:mx-10"><i class="far fa-eye "></i></a>
+                            </div>
+                        </div>
+                        <div class="button-hover relative overflow-hidden">
+                            <button class="bg-white text-black px-1 py-1 md:py-2 md:px-6 rounded-full ">Quick
+                                Shop</button>
+                            <div class="button-hover-eye  px-4  rounded-full ">
+                                <a href="#" class="mx-5 md:mt-3 md:mx-10"><i
+                                        class="fas fa-cart-arrow-down items-center"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="font-medium hover:text-teal-400">Pieces High Neck Knitted Sweater</h3>
+                <span class="text-gray-700">$50.00</span>
+            </div>
+
+        </div>
+    </section>
+    <!--san pham sale-->
+    <!-- <div class="container mx-auto mt-24">
+        <div class="flex flex-col items-center ">
+
+            <div class="inline-block text-2xl font-bold uppercase gach3 relative">LATES FROM BLOG</div>
+            <span class="text-lg text-gray-600" style="font-family: Libre Baskerville; font-style: italic;">The freshest
+                and most exciting news</span>
+        </div>
+    </div>
+    <div class="container mx-auto">
+        <div class="grid grid-cols-3 gap-8">
+            <div>
+                <div class=" relative overflow-hidden">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/articles/1_540x.jpg?v=1581524880"
+                            class="transform  hover:scale-110  duration-700 rounded"></a>
+                </div>
+                <div>
+                    <h3 class="font-medium text-lg hover:text-teal-400">Spring – Summer Trending 2020</h3>
+                    <p class="text-gray-700">By adminon April 6, 2020
+                        Typography is the work of typesetters, compositors, typographers, graphic designers, art
+                        directors,
+                        manga artists, ...</p>
+                </div>
+
+            </div>
+            <div>
+                <div class=" relative overflow-hidden">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/articles/2_18a7b802-d113-43bd-9e51-78373333370c_540x.jpg?v=1581524767"
+                            class="transform  hover:scale-110  duration-700 rounded"></a>
+                </div>
+                <div>
+                    <h3 class="font-medium text-lg hover:text-teal-400">Spring – Summer Trending 2020</h3>
+                    <p class="text-gray-700">By adminon April 6, 2020
+                        Typography is the work of typesetters, compositors, typographers, graphic designers, art
+                        directors,
+                        manga artists, ...</p>
+                </div>
+
+            </div>
+            <div>
+                <div class=" relative overflow-hidden">
+                    <a href="#"><img
+                            src="https://cdn.shopify.com/s/files/1/0332/6420/5963/articles/couple_540x.jpg?v=1586139452"
+                            class="transform  hover:scale-110  duration-700 rounded"></a>
+                </div>
+                <div>
+                    <h3 class="font-medium text-lg hover:text-teal-400">Spring – Summer Trending 2020</h3>
+                    <p class="text-gray-700">By adminon April 6, 2020
+                        Typography is the work of typesetters, compositors, typographers, graphic designers, art
+                        directors,
+                        manga artists, ...</p>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+    <!-- blog -->
+
+    <div class=" mx-auto mt-24">
+        <div class="flex flex-col items-center ">
+            <div class="inline-block text-2xl font-bold uppercase gach4 relative">@ FOLLOW INSTAGRAM</div>
+        </div>
+        <div id="intagram" class="mt-6">
+            <div class="">
+                <a href="#" class=""><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_14_360x.jpg?v=1581782221"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_8_360x.jpg?v=1581782258"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_1_360x.jpg?v=1581781488"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_6_360x.jpg?v=1581789983"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_5_360x.jpg?v=1581782315"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_4_360x.jpg?v=1581782159"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_2_360x.jpg?v=1581781598"
+                        class="rounded"></a>
+            </div>
+            <div>
+                <a href="#"><img
+                        src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/ins1_13_360x.jpg?v=1581782196"
+                        class="rounded"></a>
+            </div>
+        </div>
+    </div>
+    <!-- instagram -->
+    <footer>
+        <div class="mx-auto bg-gray-200 mt-24 ">
+            <div class="container pl-6 md:pl-0 grid grid-cols-3 md:grid-cols-12 mx-auto py-24 text-gray-600">
+                <div class="col-span-3">
+                    <div>
+                        <a href="#"><img
+                                src="https://cdn.shopify.com/s/files/1/0332/6420/5963/files/kalles_2x_d285afa0-dcc0-4663-80cc-93478c8881de_140x@2x.png?v=1581496822"
+                                width="95"></a>
+                    </div>
+                    <div class="mt-6 w-8/12 ">
+                        <i class="fas fa-map-marker-alt"></i>
+                        184 Main Rd E, St Albans
+                        VIC 3021, Australia
+                    </div>
+                    <div class="mt-6">
+                        <i class="far fa-envelope"></i>
+                        contact@company.com
+                    </div>
+                    <div class="mt-6">
+                        <i class="fas fa-phone-alt"></i>
+                        +001 2233 456
+                    </div>
+                    <div class="mt-6">
+                        <i class="fab fa-facebook-f mr-2"></i>
+                        <i class="fab fa-twitter mr-2"></i>
+                        <i class="fab fa-instagram mr-2"></i>
+                        <i class="fab fa-linkedin-in mr-2"></i>
+                        <i class="fab fa-pinterest-p mr-2"></i>
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-black text-xl font-bold mr-20">
+                        Categories
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Men</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Women</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Accessories</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Shoes</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Denim</a>
+                    </div>
+                </div>
+                <div class=" col-span-3">
+                    <div class="text-black text-xl font-bold mr-20">
+                        Infomation
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">About Us</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Contact Us</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Terms & Conditions</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Returns & Exchanges</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#" class="hover:text-teal-400">Privacy Policy</a>
+                    </div>
+                </div>
+
+
+                <div class="col-span-3">
+                    <div class="block text-black text-xl font-bold ">
+                        Newsletter Signup
+                    </div>
+                    <div class="mt-5 w-7/12">
+                        Subscribe to our newsletter and get 10% off your first purchase
+                    </div>
+                    <div class="md:flex mt-5">
+                        <input type="text" name="" placeholder="Your email address" required
+                            class="px-4 py-3 w-7/12 rounded-full outline-none border border-gray-400 hover:w-9/12">
+                        <button
+                            class="px-8 py-3 rounded-full bg-black text-white   font-bold outline-none">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#slider').slick(
+            );
+            $('#intagram').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+            const btnMenu = document.getElementById('#btnMenu');
+            $('#btnMenu').on('click', (e) => {
+                e.preventDefault();
+                console.log('1')
+                btnShowMenu.classList.toggle('hidden');// toggle la bat,tat
+            })
+
+            // const btnShowMenu = document.getElementById('#btnShowMenu');
+            // btnMenu.addEventListener('click', function (e) {
+
+
+            // })
+        });
+
+    </script>
+</body>
+
+</html>
